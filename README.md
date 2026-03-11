@@ -60,3 +60,5 @@ POST /productos
 
 
 Se visualiza el nuevo producto agregado (id 2).
+
+URL RENDER: https://servicioinvdjango.onrender.com/api/productos/
