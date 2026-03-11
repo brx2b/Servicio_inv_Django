@@ -62,3 +62,17 @@ POST /productos
 Se visualiza el nuevo producto agregado (id 2).
 
 URL RENDER: https://servicioinvdjango.onrender.com/api/productos/
+
+# ¿Cómo probar de forma local?
+
+- En la raíz del proyecto iniciar un entorno
+<code>python -m venv venv</code>
+
+- Activar el entorno
+<code> .\venv\Scripts\activate</code>
+
+- Instalar dependencias y libreria rest framework
+<code>pip install django djangorestframework </code>
+
+- Ejecutar el servidor local (verificar estar en el directorio del archivo manage.py)
+<code>python manage.py runserver</code>
