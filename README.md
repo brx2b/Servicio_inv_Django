@@ -1,8 +1,16 @@
-# Actividad fullstack clase 1
+# Actividad fullstack - django rest framework - docker
 
 ## Integrantes:
 
 Brian Aravena Quezada Andrés
+
+microservicio: Inventario
+
+## Herramientas
+
+- Docker
+- Python
+- Django rest framework
 
 ## Análisis del problema:
 
