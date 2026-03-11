@@ -73,6 +73,7 @@ URL RENDER: https://servicioinvdjango.onrender.com/api/productos/
 
 # ¿Cómo probar de forma local?
 
+### Abrir de forma local con UI de django rest
 - En la raíz del proyecto iniciar un entorno
 <code>python -m venv venv</code>
 
@@ -84,3 +85,13 @@ URL RENDER: https://servicioinvdjango.onrender.com/api/productos/
 
 - Ejecutar el servidor local (verificar estar en el directorio del archivo manage.py)
 <code>python manage.py runserver</code>
+
+### Levantar con docker
+- abrir terminal y posicionarse en la raíz de el dockerfile 
+<code>docker build -t <nombre-img></code>
+- preparar imagen
+<code>docker compose build</code>
+- levantar imagen
+<code>docker compose up</code>
+- puerto local por defecto
+<code>http://0.0.0.0:8000/</code>
